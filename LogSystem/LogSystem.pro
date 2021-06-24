@@ -21,6 +21,7 @@ SOURCES += \
         log/logger.cpp \
         log/loglevel.cpp \
         log/logtest.cpp \
+        ultis/ultis.cpp\
         main.cpp
 
 # Default rules for deployment.
@@ -30,4 +31,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     log/log.h \
-    log/logtest.h
+    log/logtest.h\
+    ultis/ultis.h
